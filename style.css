@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=IBM+Plex+Sans:wght@300&family=Work+Sans:wght@500;600&display=swap');
+
+/* Colors and fonts */
+body {
+  background-color : rgba(200, 200, 200, 1.0);
+  color :#8A8A88;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size : 20px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+
+a {
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-decoration: none;
+  color: #B9F0D0;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #474747;
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+    background-color: #F1E8E3;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.btn-green {
+  background-color: #B9F0D0;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-green:hover {
+  color: #EDEDEB;
+  background-color: #474747;
+}
+
+.list-inline {
+    list-style: none;
+    /* font-size: 40px;
+    display: inline-block; */
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.fas {
+  font-size: 50px;
+  color: #B9F0D0;
+}
+
+.fas:hover {
+  color: #474747;
+}
+
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+  margin-bottom: 40px;
+}
